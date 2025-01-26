@@ -141,7 +141,15 @@ hero3.addEventListener("mouseleave", function(){
   })
 })
 
-
+Shery.textAnimate("#rnav h3" /* Element to target.*/, {
+  //Parameters are optional.
+  style: 1,
+  y: 20,
+  delay: .3,
+  duration: 10,
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  multiplier: .1,
+});
 
 Shery.makeMagnet("#lnav i, #rnav h3");
 }
