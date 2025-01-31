@@ -55,10 +55,10 @@ tl.from ("#line1-part1 h5, h6", {
         var timer = document.querySelector("#line1-part1 h5")
         var count =0;
         setInterval(function() {
-                if(count <= 112) {
+                if(count <= 144) {
                     timer.innerHTML = count++;
          }   
-        }, 21)
+        }, 11)
     }
 }, "hello")
 tl.from (".line h1, h2", {
